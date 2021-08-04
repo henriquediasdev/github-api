@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/lecom-test/static/css/main.8ba69ce6.chunk.css",
+    "main.js": "/lecom-test/static/js/main.40eb2e17.chunk.js",
+    "main.js.map": "/lecom-test/static/js/main.40eb2e17.chunk.js.map",
+    "runtime-main.js": "/lecom-test/static/js/runtime-main.252f671e.js",
+    "runtime-main.js.map": "/lecom-test/static/js/runtime-main.252f671e.js.map",
+    "static/js/2.f48946bd.chunk.js": "/lecom-test/static/js/2.f48946bd.chunk.js",
+    "static/js/2.f48946bd.chunk.js.map": "/lecom-test/static/js/2.f48946bd.chunk.js.map",
+    "index.html": "/lecom-test/index.html",
+    "static/css/main.8ba69ce6.chunk.css.map": "/lecom-test/static/css/main.8ba69ce6.chunk.css.map",
+    "static/js/2.f48946bd.chunk.js.LICENSE.txt": "/lecom-test/static/js/2.f48946bd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.252f671e.js",
+    "static/js/2.f48946bd.chunk.js",
+    "static/css/main.8ba69ce6.chunk.css",
+    "static/js/main.40eb2e17.chunk.js"
+  ]
+}
