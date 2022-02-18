@@ -1,6 +1,6 @@
 {
-  "homepage": "http://henriquediasdev.github.io/lecom-test",
-  "name": "lecom-test",
+  "homepage": "http://henriquediasdev.github.io/github-api/",
+  "name": "github-api",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

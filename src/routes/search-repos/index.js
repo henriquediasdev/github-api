@@ -72,18 +72,17 @@ export default function SearchRepos() {
       <div className={classes.inst}>
         <h4>GitHub API</h4>
         <h6>Busque repositórios por nome, usuário, organização e/ou linguagem.</h6>
-        <h6>A API não difere os resultados para consultas de repositórios por organização ou usuário, deve-se utilizar o mesmo campo.</h6>
-        <h6>As ordenações possíveis são stars, forks, updated e best-match.</h6>
+        <h6>As ordenações possíveis são Estrelas, Bifurcações, Atualização e padrão.</h6>
       </div>
       <div className={classes.controllers}>
         <div className={classes.inlineInputs}>
           <MyTextField
             onChange={setSearch}
-            placeholder="Busca Livre"
+            placeholder="Buscar"
           />
           <MyTextField
             onChange={setUser}
-            placeholder="Buscar por Usuário"
+            placeholder="Usuário/Organização"
           />
         </div>
         <MySelect

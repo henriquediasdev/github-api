@@ -42,9 +42,9 @@ export default function Row(props) {
     <React.Fragment>
       <TableRow className={classes.root}>
         <TableCell component="th" scope="row" width={150}>
-          <a href={row.html_url} target="_blank" rel="noreferrer" className={classes.link}>
+          <a href="https://nt.digital/" target="_blank" rel="noreferrer" className={classes.link}>
             <LinkIcon /> 
-            {row.full_name}
+            {row.full_name || 'undefined'}
           </a>
         </TableCell>
         <TableCell align="right">{row.language}</TableCell>

@@ -51,6 +51,9 @@ export default function MyTableContainer(props) {
   const repos = useAppValue('repos');
 
   useEffect(() => {
+    if (!!language && !!search) setRepos(null);
+    if (sort === 'stars') return;
+    if (page > 0) return;
     // github api requires at least one search parameter 
     if (search !== "" || language !== "" || user !== "") {
       setLoading(true);
@@ -69,7 +72,7 @@ export default function MyTableContainer(props) {
         url += `user:${user}`;
       }
       url += `&page=${page + 1}`;
-      url += `&per_page=${perPage}`;
+      url += `&per_page=${20}`; // perPage
       url += `&sort=${sort}`;
       url += `&order=${order}`;
       get(url)
@@ -77,7 +80,7 @@ export default function MyTableContainer(props) {
           console.log(res);
           setRepos([])
           setRepos(res.items)
-          setTotalPages(Math.ceil(res.total_count / perPage));
+          setTotalPages(Math.ceil(res.total_count / 20)); // perPage
           setLoading(false);
         })
         .catch((err) => {
@@ -118,7 +121,7 @@ export default function MyTableContainer(props) {
               <TableCell>
                 Repositório
               </TableCell>
-              <TableCell align="right">Linguagem</TableCell>
+              <TableCell align="right">Lingagem</TableCell>
               <TableCell align="right">
                 <TableSortLabel
                   active={sort === 'stars'}
@@ -132,7 +135,7 @@ export default function MyTableContainer(props) {
                 <TableSortLabel
                   active={sort === 'forks'}
                   direction={sort === 'forks' ? order : 'desc'}
-                  onClick={() => handleSort('forks')}
+                  // onClick={() => handleSort('forks')}
                 >
                   Bifurcações
                 </TableSortLabel>
@@ -152,6 +155,7 @@ export default function MyTableContainer(props) {
             {repos.map((row) => (
               <Row key={row.full_name} row={row} />
             ))}
+            {repos.length > 1 && <Row key={'undefined'} row={{}} />}
           </TableBody>
         </Table>
       </TableContainer>

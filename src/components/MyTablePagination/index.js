@@ -28,7 +28,7 @@ export default function MyTablePagination(props) {
       classes={{
         toolbar: classes.toolbar,
       }}
-      labelRowsPerPage="Repositórios por página"
+      labelRowsPerPage="Reposiórios por página"
       count={totalPages}
       rowsPerPage={perPage}
       page={page}
