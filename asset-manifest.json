@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/lecom-test/static/css/main.8ba69ce6.chunk.css",
-    "main.js": "/lecom-test/static/js/main.40eb2e17.chunk.js",
-    "main.js.map": "/lecom-test/static/js/main.40eb2e17.chunk.js.map",
-    "runtime-main.js": "/lecom-test/static/js/runtime-main.252f671e.js",
-    "runtime-main.js.map": "/lecom-test/static/js/runtime-main.252f671e.js.map",
-    "static/js/2.f48946bd.chunk.js": "/lecom-test/static/js/2.f48946bd.chunk.js",
-    "static/js/2.f48946bd.chunk.js.map": "/lecom-test/static/js/2.f48946bd.chunk.js.map",
-    "index.html": "/lecom-test/index.html",
-    "static/css/main.8ba69ce6.chunk.css.map": "/lecom-test/static/css/main.8ba69ce6.chunk.css.map",
-    "static/js/2.f48946bd.chunk.js.LICENSE.txt": "/lecom-test/static/js/2.f48946bd.chunk.js.LICENSE.txt"
+    "main.css": "/github-api/static/css/main.8ba69ce6.chunk.css",
+    "main.js": "/github-api/static/js/main.96b6b61d.chunk.js",
+    "main.js.map": "/github-api/static/js/main.96b6b61d.chunk.js.map",
+    "runtime-main.js": "/github-api/static/js/runtime-main.def5a94a.js",
+    "runtime-main.js.map": "/github-api/static/js/runtime-main.def5a94a.js.map",
+    "static/js/2.94758b25.chunk.js": "/github-api/static/js/2.94758b25.chunk.js",
+    "static/js/2.94758b25.chunk.js.map": "/github-api/static/js/2.94758b25.chunk.js.map",
+    "index.html": "/github-api/index.html",
+    "static/css/main.8ba69ce6.chunk.css.map": "/github-api/static/css/main.8ba69ce6.chunk.css.map",
+    "static/js/2.94758b25.chunk.js.LICENSE.txt": "/github-api/static/js/2.94758b25.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.252f671e.js",
-    "static/js/2.f48946bd.chunk.js",
+    "static/js/runtime-main.def5a94a.js",
+    "static/js/2.94758b25.chunk.js",
     "static/css/main.8ba69ce6.chunk.css",
-    "static/js/main.40eb2e17.chunk.js"
+    "static/js/main.96b6b61d.chunk.js"
   ]
 }
