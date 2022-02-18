@@ -1,6 +1,6 @@
 ### Demo
 
-<a href="https://henriquediasdev.github.io/lecom-test/">Aplicação 🚀</a>
+<a href="https://henriquediasdev.github.io/github-api/">Aplicação 🚀</a>
 ### Features
 
 - [x] Consulta por dados do Repositório
